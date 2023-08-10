@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMarks",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "math",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "english",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "history",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "math",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "english",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "history",
+						"type": "uint8"
+					}
+				],
+				"name": "setMarks",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "studentMarks",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "math",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "english",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "history",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/12mappingWithStruct.sol": "StudentMarks"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/12mappingWithStruct.sol": {
+			"keccak256": "0xdefa17a2e8ca6131da1b64c896633166767c2084476945644dddc1dd5c7c38c3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3e78804c67e1714f56d0a12c0d109e12454292e320cdffa6bd665d655d1484e1",
+				"dweb:/ipfs/Qmb3PPn7LU5fazWEdyvrPxXpeZD3eXxSxNgd61pZvCqnMp"
+			]
+		}
+	},
+	"version": 1
+}

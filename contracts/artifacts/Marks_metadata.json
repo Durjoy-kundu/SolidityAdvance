@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "getMarks",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "marks",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_mathMarks",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_englishMarks",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_historyMarks",
+						"type": "uint256"
+					}
+				],
+				"name": "setMarks",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/11mapping.sol": "Marks"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/11mapping.sol": {
+			"keccak256": "0xbb8b152cf2c9ecafb5dbbe5d7e27c8bde1e7588ff885920bff90fea219f4c292",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://02d62d30694b84a0ab54008d123cdfde96769a0f2bde39c1370dd57ebbd52ac1",
+				"dweb:/ipfs/QmbeaQGTCk1xqoDppR3WRyVY1pmifSSW7YHAM88jA51SSt"
+			]
+		}
+	},
+	"version": 1
+}

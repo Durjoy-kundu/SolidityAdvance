@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getHouse",
+				"outputs": [
+					{
+						"internalType": "enum House",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum House",
+						"name": "value",
+						"type": "uint8"
+					}
+				],
+				"name": "insertHouse",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/15Enum.sol": "HouseContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/15Enum.sol": {
+			"keccak256": "0x6979d9cd64f2b583189ef2fc270d2309b39d87fe182c4628c82ea7bd3759c64b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0fc77cc143495d7559969a80fdc61e381503cfd5375b2fecfc85f0a798fed225",
+				"dweb:/ipfs/QmTzxRhXTCQ9a16s5iF1C7fDS5BwkYoTYsgn5zyQDRYWP8"
+			]
+		}
+	},
+	"version": 1
+}

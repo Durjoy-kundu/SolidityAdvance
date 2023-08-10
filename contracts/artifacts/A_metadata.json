@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[5]",
+						"name": "brr",
+						"type": "uint256[5]"
+					}
+				],
+				"name": "sortingArray",
+				"outputs": [
+					{
+						"internalType": "uint256[5]",
+						"name": "",
+						"type": "uint256[5]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/7insertingElement.sol": "A"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/7insertingElement.sol": {
+			"keccak256": "0x28dacabed6f0089949c3f12389d2746a2fef90ea3c32a32e4202f635c8a8de61",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8397cd7916d0e0c686371b0a255f91159ef3d7a6f28bc5687d179a7643e5b1f3",
+				"dweb:/ipfs/QmVUx8ih6eQZpQdAkS666N5SNPCY78qTarP7X1dpTDL2zL"
+			]
+		}
+	},
+	"version": 1
+}

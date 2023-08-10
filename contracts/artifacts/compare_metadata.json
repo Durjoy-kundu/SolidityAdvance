@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_str2",
+						"type": "string"
+					}
+				],
+				"name": "compareStrings",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/2StringsEqualOrNot.sol": "compare"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/2StringsEqualOrNot.sol": {
+			"keccak256": "0x4db90e51fb5bd1d47547bb29d40b395f3b8ecfe522a4ac227d7f63dfd11f0d54",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://dd1871218c36fd865d7c1e97a41115d6ddcc61a5670e158798762669bb768a51",
+				"dweb:/ipfs/QmaWhnazUJ7NtSBtn2LJXHC6BpZoUbHgbL9jjJaAdtfBNC"
+			]
+		}
+	},
+	"version": 1
+}

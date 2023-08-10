@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[5]",
+						"name": "brr",
+						"type": "uint256[5]"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/8SumOfarray.sol": "Assingnment"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/8SumOfarray.sol": {
+			"keccak256": "0x03f61555de24a5fee9959db17e5920bfe42b33311486ece1c20c5bfc94fba320",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d87de07112e8a2fa5645a2a2c644da35954deead2e1c90e961bf79c1976c7914",
+				"dweb:/ipfs/QmWb5du3G2mj8Un3fiDgfy18WhHA1fMNfTD3WbxvbbopEa"
+			]
+		}
+	},
+	"version": 1
+}
