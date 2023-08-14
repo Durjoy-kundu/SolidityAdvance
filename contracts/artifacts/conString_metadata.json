@@ -4,7 +4,32 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_a",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_b",
+						"type": "string"
+					}
+				],
+				"name": "ConcatenateString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/2StringsEqualOrNot.sol": "conString"
+			"contracts/1concatinateStrings.sol": "conString"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/2StringsEqualOrNot.sol": {
-			"keccak256": "0x13cfc942b1ef44aba7448459ec5b0d4cbdf0b64f48c3284e8649734ed39cad52",
+		"contracts/1concatinateStrings.sol": {
+			"keccak256": "0x911a77f1901ccef852c0acf691502f80d5efa78a7e28d7e8e94e92c8c41a5298",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c4bf872dd0c7c35456357d4d53fef79de3abf1cf476886726b858750d40ee267",
-				"dweb:/ipfs/QmNhWuj6sK3vp4Y1zXy4DDmY9w73ZcfSKaQZWJzniScYog"
+				"bzz-raw://44bbcc204761832c01fb46166c171c93a04caa5416bcdb45ec0f7b008524d49b",
+				"dweb:/ipfs/QmVrTctgJu99yC2z6DGbDrLHNFckSP2JSjW1MKcdN1igvA"
 			]
 		}
 	},

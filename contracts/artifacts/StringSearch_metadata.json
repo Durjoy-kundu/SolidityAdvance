@@ -25,16 +25,27 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "sortingArray",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "uint256[5]",
-						"name": "",
-						"type": "uint256[5]"
+						"internalType": "uint256",
+						"name": "target",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"name": "searchElement",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "found",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -51,7 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/5sorting.sol": "StringSearch"
+			"contracts/3SearchElementOfarray.sol": "StringSearch"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -65,12 +76,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/5sorting.sol": {
-			"keccak256": "0x62940981051f5bbf015046b10741852e9b51f3ebfe03193773d8f2f44207ad8b",
+		"contracts/3SearchElementOfarray.sol": {
+			"keccak256": "0xd16d269d21ff1391402369fdf083b083ebef4ae71c79b38e38456d70fb336fa7",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://12f8ad192d463864e25ae94a6f7fc59c447ba69c2e94a1d4bd9decdb4b96e054",
-				"dweb:/ipfs/QmaTmCUTqJTsbFKAWyqUHu1KQMaaTMgLthawR17dX1MDf2"
+				"bzz-raw://e64c1d99db05088a3ad7853233d98f89c42334b68da6c197a6a21486b5a46d9f",
+				"dweb:/ipfs/QmWcT65Z9zv6K2tLCfznMDA9EDr8kvUQZcTuGijvkQaEPR"
 			]
 		}
 	},

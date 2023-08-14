@@ -57,7 +57,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/5sorting.sol": "ArraySorting"
+			"contracts/6ReverseArray.sol": "ArraySorting"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -71,12 +71,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/5sorting.sol": {
-			"keccak256": "0x5069e914b101064ac470f252aac264d186571d6da253e0740a125b6edcf9a69e",
+		"contracts/6ReverseArray.sol": {
+			"keccak256": "0x607571ce64ce1f104d345c8d2e86b2fdacd8bdabad3649332721b79e85c698c6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e6f2e3f7cabface06b34454003a60992e990a80a51fd48d9fb94c6ec72fa6e21",
-				"dweb:/ipfs/QmRen4yjjUgwPGZBVKoX1tAibGdABPBUJE1Uus1HNuhi2e"
+				"bzz-raw://0b4f38eb2ee1142efea1e99f4cd75fa40db073e50befe54bdd20776d7a20389e",
+				"dweb:/ipfs/QmWxGLens4rkGE4APcjhc4fGE1YgjskGWji9sU5366iQFx"
 			]
 		}
 	},
